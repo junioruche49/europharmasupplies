@@ -20,7 +20,7 @@ function Navbar(props) {
         <Link href={"/"}>Team</Link>
       </li>
       <li>
-        <Link href={"/"}>Contact</Link>
+        <Link href={"/contact"}>Contact</Link>
       </li>
     </ul>
   );
