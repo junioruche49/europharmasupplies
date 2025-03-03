@@ -209,7 +209,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full flex  flex-row  px-20 mt-48">
+      {/* <section className="w-full flex  flex-row  px-20 mt-48">
         <div className="w-full px-5 bg-[#12a19d] flex flex-row items-center ">
           <div className="w-[30%] text-white"></div>
           <div className="w-[40%] text-white text-center pb-16">
@@ -227,9 +227,9 @@ export default function Home() {
           </div>
           <div className="w-[30%] text-white"></div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="w-full mt-16 px-20">
+      <section className="w-full mt-48 px-20">
         <h2 className="font-bold text-5xl py-5 text-[#12a19d] flex items-center justify-center">
           Our Partners
         </h2>
