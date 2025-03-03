@@ -17,7 +17,7 @@ function Navbar(props) {
         <Link href={"/"}>Vision & Mission</Link>
       </li> */}
       <li>
-        <Link href={"/"}>Team</Link>
+        <Link href={"/team"}>Team</Link>
       </li>
       <li>
         <Link href={"/contact"}>Contact</Link>

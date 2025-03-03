@@ -60,6 +60,28 @@ function About(props) {
             </p>
           </div>
         </div>
+        <div className="flex flex-row gap-14 w-full h-72">
+          <div className="w-[34rem] bg-[#a7ed4f] flex items-center justify-center">
+            <h2 className="leading-8 text-5xl font-extrabold text-[#12a19d]">
+              Our Objectives
+            </h2>
+          </div>
+          <div className="flex flex-1 items-center justify-center  flex-col leading-8 px-10">
+            <p className="text-lg">
+              Establish EuroPharma Supplies as a trusted supplier of
+              pharmaceutical products in the Netherlands within the first year.
+            </p>
+            <p className=" text-lg ">
+              Develop partnerships with at least five pharmaceutical
+              manufacturers in the first 18 months.
+            </p>
+            <p className=" text-lg ">
+              Achieve a 20% market share in the local pharmaceutical
+              distribution market within five years & Generate sustainable
+              revenue streams through our logistics services.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
