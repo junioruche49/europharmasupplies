@@ -10,6 +10,7 @@ import image12 from "../assets/img/image-12.avif";
 import image13 from "../assets/img/image-13.avif";
 import NextLogo from "../assets/img/Next-logo.svg";
 import Image from "next/image";
+import Link from "next/link";
 
 const contentStyle = {
   height: "760px",
@@ -60,7 +61,10 @@ export default function Home() {
           </h1>
         </div>
       </Carousel>
-      <div className="flex w-full gap-8 px-20 mt-20">
+      <h2 className="font-bold text-5xl py-5 text-[#12a19d] flex items-center justify-center mt-20">
+        Supplies
+      </h2>
+      <div className="flex w-full gap-8 px-20 ">
         <div className="flex-1 h-[22rem] flex flex-col items-center shadow-xl p-4">
           <Image src={image10} alt="image10" className="h-72" />
           <p>Wholesale 10L/20L PP Plastic Carboy Polypropylene Medical</p>
@@ -81,8 +85,17 @@ export default function Home() {
           <p>Reversible Pen Injector 60IU Boxed and Reusable with Big</p>
         </div>
       </div>
+      <div className="flex w-full items-center justify-center mt-5 mb-10">
+        <Link
+          href={"/supplies"}
+          className="bg-[#12a19d] px-4 py-3 text-lg w-fit mt-5 text-white font-bold"
+        >
+          View All
+        </Link>
+      </div>
+
       <div className="flex flex-row gap-8 w-full px-20 mt-20">
-        <div className="flex flex-col w-[42%] bg-[url(../assets/img/image-1.avif)] bg-cover pl-10 pt-3 pb-10">
+        <div className="flex flex-col w-[42%] bg-[url(../assets/img/image-7.png)] bg-cover pl-10 pt-3 pb-10">
           <div className="flex w-[55%] flex-col bg-[#a7ed4f] p-5 border-b-[5px] border-t-[5px] border-[#12a19d]">
             <h2 className="font-bold text-2xl py-5 text-[#12a19d]">
               About EuroPharma
@@ -96,12 +109,15 @@ export default function Home() {
               enterprises, and leading logistics service providers such as DHL,
               FedEx, and UPS.
             </p>
-            <button className="bg-[#12a19d] px-4 py-3 text-lg w-fit mt-5 text-white font-bold">
+            <Link
+              href={"/about"}
+              className="bg-[#12a19d] px-4 py-3 text-lg w-fit mt-5 text-white font-bold"
+            >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
-        <div className="flex flex-col w-[58%] bg-[url(../assets/img/image-2.avif)] bg-cover pl-5 pt-3 pb-5">
+        <div className="flex flex-col w-[58%] bg-[url(../assets/img/image-21.png)] bg-cover pl-5 pt-3 pb-5">
           <div className="flex w-[40%] flex-col bg-[#a7ed4f] p-5 border-b-[5px] border-t-[5px] border-[#12a19d]">
             <h2 className="font-bold text-2xl py-5 text-[#12a19d]">
               Our core Value
@@ -126,9 +142,12 @@ export default function Home() {
               teamwork, working closely with clients, suppliers, and
               stakeholders to achieve common goals.
             </p>
-            <button className="bg-[#12a19d] px-4 py-3 text-lg w-fit mt-5 text-white font-bold">
+            <Link
+              href={"/about"}
+              className="bg-[#12a19d] px-4 py-3 text-lg w-fit mt-5 text-white font-bold"
+            >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -17,10 +17,10 @@ function Navbar(props) {
         <Link href={"/"}>Vision & Mission</Link>
       </li> */}
       <li>
-        <Link href={"/team"}>Team</Link>
+        <Link href={"/supplies"}>Supplies</Link>
       </li>
       <li>
-        <Link href={"/contact"}>Contact</Link>
+        <Link href={"/contact"}>Contact Us</Link>
       </li>
     </ul>
   );
