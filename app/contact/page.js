@@ -4,6 +4,7 @@ import pin from "../../assets/img/pin.png";
 import mail from "../../assets/img/mail.png";
 import telephone from "../../assets/img/telephone.png";
 import linkedin_2 from "../../assets/img/linkedin_2.png";
+import whatsapp from "../../assets/img/whatsapp.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -76,9 +77,7 @@ function Contact(props) {
         >
           <Image src={telephone} alt="telephone" className="w-8" />
           <h2 className="font-semibold text-lg text-[#12a19d]">Phone</h2>
-          <p className="text-sm text-[#12a19d] text-center">
-            +353834871791,+31687569057
-          </p>
+          <p className="text-sm text-[#12a19d] text-center">+31621636515</p>
         </div>
         <div
           className="flex flex-col flex-1 w-[25] justify-center items-center border-2 border-t-0 
@@ -97,12 +96,15 @@ function Contact(props) {
         >
           <Image src={like} alt="like" className="w-8" />
           <h2 className="font-semibold text-lg text-[#12a19d]">Connect</h2>
-          <div className="flex flex-row">
+          <div className="flex flex-row gap-2">
             <Link
               href={"https://www.linkedin.com/company/europharma-supplies/"}
               target="_"
             >
               <Image src={linkedin_2} alt="linkedin_1" className="w-7" />
+            </Link>
+            <Link href={"https://wa.me/+31621636515"} target="_">
+              <Image src={whatsapp} alt="whatsapp" className="w-7" />
             </Link>
           </div>
         </div>

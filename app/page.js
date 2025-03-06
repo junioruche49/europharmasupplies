@@ -155,24 +155,22 @@ export default function Home() {
         <div className="w-full bg-[#12a19d] pb-10 flex flex-row">
           <div className="w-full px-5 flex flex-col items-center ">
             <div className="w-[70%] text-white">
-              <h2 className="font-bold text-2xl py-10 text-white mt-10">
-                Our Business Objectives
+              <h2 className="font-bold text-2xl py-10 pb-0 text-white mt-10">
+                Business Model
               </h2>
+              <p className="pb-10 font-medium text-lg">
+                EuroPharma Supplies operates on a dual business
+              </p>
               <ol className="list-disc ml-10">
                 <li className="mb-6 font-medium text-lg">
-                  Establish EuroPharma Supplies as a trusted supplier of
-                  pharmaceutical products in the Netherlands within the first
-                  year.
+                  Firstly, the company sells pharmaceutical products directly to
+                  healthcare providers, pharmacies, and other businesses in need
+                  of medical supplies.
                 </li>
                 <li className="mb-6 font-medium text-lg">
-                  Establish EuroPharma Supplies as a trusted supplier of
-                  pharmaceutical products in the Netherlands within the first
-                  year.
-                </li>
-                <li className="mb-6 font-medium text-lg">
-                  Establish EuroPharma Supplies as a trusted supplier of
-                  pharmaceutical products in the Netherlands within the first
-                  year.
+                  Secondly, EuroPharma acts as a middleman, facilitating
+                  seamless transactions between pharmaceutical companies and
+                  commercial enterprises.
                 </li>
               </ol>
             </div>
