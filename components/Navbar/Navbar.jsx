@@ -12,7 +12,7 @@ function Navbar(props) {
   };
 
   return (
-    <ul className="list-none flex flex-row gap-5">
+    <ul className="list-none flex flex-row justify-center items-center gap-5">
       <li>
         <Link href={"/"} className={isActive("/")}>
           Home
@@ -39,6 +39,11 @@ function Navbar(props) {
       <li>
         <Link href={"/contact"} className={isActive("/contact")}>
           Contact Us
+        </Link>
+      </li>
+      <li>
+        <Link href={"/contact#address"} className={isActive("/contact")}>
+          AFROBIOTECH LTD
         </Link>
       </li>
     </ul>

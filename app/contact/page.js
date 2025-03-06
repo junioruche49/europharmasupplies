@@ -43,13 +43,17 @@ function Contact(props) {
           className="flex flex-col flex-1 w-[25] justify-center items-center border-2 border-t-0 
             border-b-0 border-l-0
         border-[#12a19d] p-10"
+          id="address"
         >
           <Image src={pin} alt="pin" className="w-8" />
           <h2 className="font-semibold text-lg text-[#12a19d]">Address</h2>
           <p className="text-sm text-[#12a19d] text-center">
-            ARINZE LODGE, UMUNKWEJIM CLOSE, <br />
+            AFROBIOTECH LTD - ARINZE LODGE, UMUNKWEJIM CLOSE, <br />
             URUOKWE, EGBEMA, OZUBULU, <br />
-            ANAMBRA STATE, NIGERIA
+            ANAMBRA STATE, NIGERIA <br />
+            EU location - Dordtselaan 238D, 3073GV Rotterdam the Netherlands{" "}
+            <br />
+            VAT: NL005207965B49
           </p>
         </div>
         <div
