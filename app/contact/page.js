@@ -3,7 +3,9 @@ import like from "../../assets/img/like.png";
 import pin from "../../assets/img/pin.png";
 import mail from "../../assets/img/mail.png";
 import telephone from "../../assets/img/telephone.png";
+import linkedin_2 from "../../assets/img/linkedin_2.png";
 import Image from "next/image";
+import Link from "next/link";
 
 function Contact(props) {
   return (
@@ -50,7 +52,18 @@ function Contact(props) {
           <p className="text-sm text-[#12a19d] text-center">
             AFROBIOTECH LTD - ARINZE LODGE, UMUNKWEJIM CLOSE, <br />
             URUOKWE, EGBEMA, OZUBULU, <br />
-            ANAMBRA STATE, NIGERIA <br />
+            ANAMBRA STATE, NIGERIA
+          </p>
+        </div>
+        <div
+          className="flex flex-col flex-1 w-[25] justify-center items-center border-2 border-t-0 
+            border-b-0 border-l-0
+        border-[#12a19d] p-10"
+          id="address"
+        >
+          <Image src={pin} alt="pin" className="w-8" />
+          <h2 className="font-semibold text-lg text-[#12a19d]">Address</h2>
+          <p className="text-sm text-[#12a19d] text-center">
             EU location - Dordtselaan 238D, 3073GV Rotterdam the Netherlands{" "}
             <br />
             VAT: NL005207965B49
@@ -63,7 +76,9 @@ function Contact(props) {
         >
           <Image src={telephone} alt="telephone" className="w-8" />
           <h2 className="font-semibold text-lg text-[#12a19d]">Phone</h2>
-          <p className="text-sm text-[#12a19d] text-center">089349930432</p>
+          <p className="text-sm text-[#12a19d] text-center">
+            +353834871791,+31687569057
+          </p>
         </div>
         <div
           className="flex flex-col flex-1 w-[25] justify-center items-center border-2 border-t-0 
@@ -73,7 +88,7 @@ function Contact(props) {
           <Image src={mail} alt="mail" className="w-8" />
           <h2 className="font-semibold text-lg text-[#12a19d]">Email</h2>
           <p className="text-sm text-[#12a19d] text-center">
-            info@EuroPharmaSupplies.com
+            info@europharmasupplies.com
           </p>
         </div>
         <div
@@ -82,9 +97,14 @@ function Contact(props) {
         >
           <Image src={like} alt="like" className="w-8" />
           <h2 className="font-semibold text-lg text-[#12a19d]">Connect</h2>
-          <p className="text-sm text-[#12a19d] text-center">
-            info@EuroPharmaSupplies.com
-          </p>
+          <div className="flex flex-row">
+            <Link
+              href={"https://www.linkedin.com/company/europharma-supplies/"}
+              target="_"
+            >
+              <Image src={linkedin_2} alt="linkedin_1" className="w-7" />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
