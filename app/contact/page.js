@@ -50,9 +50,9 @@ function Contact(props) {
           <Image src={pin} alt="pin" className="w-8" />
           <h2 className="font-semibold text-lg text-[#12a19d]">Address</h2>
           <p className="text-sm text-[#12a19d] text-center">
-            AFROBIOTECH LTD - ARINZE LODGE, UMUNKWEJIM CLOSE, <br />
-            URUOKWE, EGBEMA, OZUBULU, <br />
-            ANAMBRA STATE, NIGERIA
+            EU location - Dordtselaan 238D, 3073GV Rotterdam the Netherlands{" "}
+            <br />
+            VAT: NL005207965B49
           </p>
         </div>
         <div
@@ -64,9 +64,9 @@ function Contact(props) {
           <Image src={pin} alt="pin" className="w-8" />
           <h2 className="font-semibold text-lg text-[#12a19d]">Address</h2>
           <p className="text-sm text-[#12a19d] text-center">
-            EU location - Dordtselaan 238D, 3073GV Rotterdam the Netherlands{" "}
-            <br />
-            VAT: NL005207965B49
+            AFROBIOTECH LTD - ARINZE LODGE, UMUNKWEJIM CLOSE, <br />
+            URUOKWE, EGBEMA, OZUBULU, <br />
+            ANAMBRA STATE, NIGERIA
           </p>
         </div>
         <div
